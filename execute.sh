@@ -1,5 +1,4 @@
 # sudo -i -u postgres
-# cd /home/pti08/prog/psql/
 read -p "Press any key to create table (Lab1)... " -n1 -s
 echo ""
 psql -a -f lab1/tree.sql 
