@@ -4,7 +4,6 @@ if [[ -z "$1" ]]; then
     exit 1
 fi
 git pull
-git add README.md
 git add execute.sh clear.sql lab*/*.sql
 git add pull.sh
 git commit -m "$1"
